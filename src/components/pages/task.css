@@ -1,0 +1,20 @@
+.status-popup {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none; /* Default to not displayed */
+  z-index: 1000; /* Make sure it's above other content */
+}
+
+.status-popup.show {
+  display: block; /* Show when class "show" is added */
+}
+
+.status-option:hover {
+  background-color: #f0f0f0;
+}
+
+.someParentContainer {
+  position: relative;
+}

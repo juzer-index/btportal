@@ -1,0 +1,54 @@
+@media only screen
+  and (max-width: 480px) {
+   .retailerLogin
+   {
+    background-image: url('../../../assets/slide-3.jpg');
+    height : 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   }
+   .customerJSWLogin
+   {
+    background-image: url('../../../assets/slide-3.jpg');
+    height : 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   }
+}
+
+/* background image for devices with 481px or above */
+@media only screen
+  and (min-width: 481px) {
+    .retailerLogin
+    {
+     background-image: url('../../../assets/slide-3.jpg');
+     height : 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     }
+     .retailerLogin::before {
+    content: "";
+    background: linear-gradient(to right, var(--primary06) 0%, rgba(110, 126, 150, 0.4) 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+     .customerJSWLogin
+   {
+    background-image: url('../../../assets/slide-3.jpg');
+    height : 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   }
+   .customerJSWLogin::before {
+    content: "";
+    background: linear-gradient(to right, var(--primary06) 0%, rgba(110, 126, 150, 0.4)100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+}

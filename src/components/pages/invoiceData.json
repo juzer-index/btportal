@@ -1,0 +1,65 @@
+[
+  {
+    "id": "INV001",
+    "customer_name": "Knelsen",
+    "due_date": "2024-03-15",
+    "amount_due": 250.0,
+    "status": "unpaid"
+  },
+  {
+    "id": "INV002",
+    "customer_name": "Multicrete Precast",
+    "due_date": "2024-03-20",
+    "amount_due": 180.75,
+    "status": "unpaid"
+  },
+  {
+    "id": "INV003",
+    "customer_name": "Fritz Alder Precast",
+    "due_date": "2024-03-25",
+    "amount_due": 300.5,
+    "status": "unpaid"
+  },
+  {
+    "id": "INV004",
+    "customer_name": "TKL",
+    "due_date": "2024-03-18",
+    "amount_due": 120.25,
+    "status": "unpaid"
+  },
+  {
+    "id": "INV005",
+    "customer_name": "Knelsen",
+    "due_date": "2024-03-22",
+    "amount_due": 400.0,
+    "status": "unpaid"
+  },
+  {
+    "id": "INV006",
+    "customer_name": "Multicrete Precast",
+    "due_date": "2024-03-27",
+    "amount_due": 175.8,
+    "status": "unpaid"
+  },
+  {
+    "id": "INV007",
+    "customer_name": "Fritz Alder Precast",
+    "due_date": "2024-03-18",
+    "amount_due": 275.3,
+    "status": "unpaid"
+  },
+  {
+    "id": "INV008",
+    "customer_name": "TKL",
+    "due_date": "2024-03-30",
+    "amount_due": 210.0,
+    "status": "unpaid"
+  },
+  {
+    "id": "INV009",
+    "customer_name": "Knelsen",
+    "due_date": "2024-04-02",
+    "amount_due": 150.75,
+    "status": "unpaid"
+  }
+]

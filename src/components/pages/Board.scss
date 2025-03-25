@@ -1,0 +1,61 @@
+
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* List styles */
+.list {
+    background-color: #ebecf0;
+    border-radius: 3px;
+    width: 30%;
+    /* Equal width for each list */
+    margin: 0 10px;
+    /* Optional margin for spacing */
+    padding: 8px;
+    box-sizing: border-box;
+    height: fit-content;
+    min-height: 100px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.list-title {
+    background-color: #5ba4cf;
+    /* A nice blue color for the title */
+    color: white;
+    /* White text color */
+    padding: 10px;
+    border-radius: 3px 3px 0 0;
+    /* Rounded corners at the top */
+    margin: -8px -8px 8px -8px;
+    /* Aligns the title with the list edges */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Card styles */
+.card {
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 0 8px 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* This is to make sure the last card has a margin at the bottom */
+.list:last-child .card {
+    margin-bottom: 8px;
+}
+
+/* Adjustments for spacing and scrolling */
+.board {
+    overflow-y: auto;
+    padding-bottom: 20px;
+}

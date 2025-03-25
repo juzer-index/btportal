@@ -1,0 +1,23 @@
+/* .scope-of-work-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+
+.radio-options {
+  margin: 10px 0;
+}
+
+.radio-options label {
+  margin-right: 10px;
+} */
+
+.scrollable-table {
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important; /* For smooth scrolling on mobile devices */
+  /* background-color: red; */
+}

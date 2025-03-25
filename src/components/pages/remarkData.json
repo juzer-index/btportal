@@ -1,0 +1,79 @@
+
+
+{
+    "REUPLOAD": [
+        {
+          "id": "1",
+          "backend_label": "No GST invoice",
+          "front_end_label": "Please upload a GST invoice"
+        },
+        {
+          "id": "2",
+          "backend_label": " Invoice copy not clear",
+          "front_end_label": "Please upload a clear copy of GST invoice"
+        },
+        {
+          "id": "3",
+          "backend_label": "Dates not visible",
+          "front_end_label": " Please upload a clear copy of GST invoice"
+        },
+        {
+          "id": "4",
+          "backend_label": "Product brand name not clear",
+          "front_end_label": " Please upload a clear copy of GST invoice"
+        },
+        {
+          "id": "5",
+          "backend_label": "Dealer Data does not match the invoice",
+          "front_end_label": "Dealer selected for registration does not match the invoice data"
+        },
+        {
+          "id": "6",
+          "backend_label": "Invoice Number Not Visible",
+          "front_end_label": "Please upload a invoice copy with invoice number clearly visible"
+        },
+        {
+          "id": "7",
+          "backend_label": "Invoice total amount not visible",
+          "front_end_label": "Invoice total amount not visible"
+        }
+      
+       
+      ],
+    "REJECTED": [
+        {
+          "id": "1",
+          "backend_label": "Out of scheme dates",
+          "front_end_label": "Submitted invoice is not in the contest duration"
+        },
+        {
+          "id": "2",
+          "backend_label": "Invoice out of dealer data (1700)",
+          "front_end_label": "Submitted invoice is not an authorized retailer"
+        },
+        {
+          "id": "3",
+          "backend_label": "Non branded product",
+          "front_end_label": "Purchased product is not eligible for the scheme"
+        },
+        {
+          "id": "4",
+          "backend_label": "Minimum quantity not met",
+          "front_end_label": "Quantity purchase does not meet the minimum quantity requirement"
+        },
+        {
+          "id": "5",
+          "backend_label": "Duplicate Invoice",
+          "front_end_label": "Submitted invoice is has already been processed for another entry"
+        },
+        {
+          "id": "6",
+          "backend_label": "Invalid Document",
+          "front_end_label": "Submitted invoice is not a GST invoice"
+        }
+       
+      ]
+
+}
+
+
